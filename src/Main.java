@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         User user0 = new User();
         user0.stampaInfo();
-        User user1 = new User("Marco Polo",29);
+        User user1 = new User("Marco Polo", 29);
         user1.stampaInfo();
     }
 }

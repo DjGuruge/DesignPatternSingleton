@@ -7,7 +7,7 @@ public class User {
     private String nome;
     private Integer eta;
 
-    public User(String nome, Integer eta ) {
+    public User(String nome, Integer eta) {
         this.eta = eta;
         this.nome = nome;
     }
@@ -27,13 +27,14 @@ public class User {
     public void setEta(Integer eta) {
         this.eta = eta;
     }
-    public User(){
-        this.nome = null;
+
+    public User() {
+        this.nome = "default";
         this.eta = null;
     }
 
-    public void stampaInfo(){
-        System.out.println("il nome é :"+this.nome+" e l'etá é di :"+this.eta);
+    public void stampaInfo() {
+        System.out.println("il nome é : " + this.nome + " e l'etá é di : " + this.eta);
     }
 
 }
